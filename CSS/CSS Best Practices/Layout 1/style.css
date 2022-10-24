@@ -1,0 +1,23 @@
+.container {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.small_boxes {
+    display: flex;
+}
+
+.right {
+    margin: 20px;
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+}
+
+.left {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
