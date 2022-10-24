@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid black;
+    padding: 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+        /* or use JCC*/
+}
+
+.title {
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 24px;
+    margin-bottom: 24px;
+}
+
+.box {
+    border: 5px solid darkgray;
+    height: 100px;
+    width: 30%;
+    margin-bottom: 24px;
+}
+
+.stacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
