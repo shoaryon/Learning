@@ -2,13 +2,13 @@
     display: flex;
     border: 5px solid darkgray;
     justify-content: space-between;
-    padding: 25px;
+    padding: 80px 24px 80px 24px;
 }
 
 .row {
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     display: flex;
     justify-content: space-between;
 }
