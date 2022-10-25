@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    border: 5px solid darkgray;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    border: 3px solid gray;
+}
+
+.left-column {
+    width: 45%;
+}
+
+.row-box {
+    height: 50px;
+    margin-bottom: 14px;
+}
+
+.large-box {
+    width: 45%;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.triple-box {
+    width: 27%;
+    height: 50px;
+}
