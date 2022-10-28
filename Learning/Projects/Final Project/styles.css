@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: 300ms ease backwards;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6145ff;
+}
+
+.no-click {
+    cursor: not-allowed;
+}
+
+/*
+
+NAVIGATION
+
+*/
+
+.nav__container {
+    width: 100%;
+    max-width: 1280px;    
+    padding: 20px 28px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__branding {
+    display: flex;
+    align-items: center;
+}
+
+.nav__branding--logo {
+    width: 48px;
+}
+
+.nav__header {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 12px;
+    color: #243e63;
+}
+
+.nav__list {
+    text-decoration: none;
+    display: flex;
+    
+}
+
+.nav__list--item {
+    list-style-type: none;
+    padding: 0 24px;
+
+}
+
+.nav__link {
+    font-size: 14px;
+    color: black;
+    font-weight: 550;
+    color: #243e63;
+}
+
+.login {
+    padding-left: 28px;
+}
+
+.sign-up {
+    background: #6145ff;
+    padding: 12px 32px;
+    color: white;
+    border-radius: 48px;
+}
+
+.sign-up:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 135%;
+}
