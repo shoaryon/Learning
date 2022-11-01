@@ -1,13 +1,13 @@
-let cash = 50
-let price = 60
-let difference = cash-price
+// let count = 1;
 
-if (cash > price) {
-    console.log(`you paid extra - here's ${difference} dollars change`)
-}
-else if (cash === price) {
-    console.log ('you paid the exact amoutn - have a nice day')
-}
-if (cash < price) {
-    console.log (`not enough money - you still owe ${difference * -1} dollars`)
+
+// while (count <= 100) {
+//     console.log(count)
+//     count = count +1;
+// }
+
+const str = 'Frontend Simplified'
+
+for (let i = 0; i < str.length; i++) {
+    console.log(str[i]);
 }
