@@ -136,7 +136,7 @@ HEADER
 .header {
     display: flex;
     width: 100%;
-    padding: 96px 0;
+    padding: 0 0 32px 0;
 }
 
 .header__left {
@@ -256,7 +256,7 @@ QUALITY WORK
 }
 
 .qw__left {
-    width: 45%;
+    max-width: 45%;
 }
 
 .qw__left--marker {
@@ -277,7 +277,7 @@ QUALITY WORK
 }
 
 .qw__right--img {
-    width: 100%;
+    max-width: 100%;
     border: 1px solid lightgrey;
 }
 
@@ -290,4 +290,115 @@ QUALITY WORK
 STEPS
 
 */
+
+.steps {
+    width: 100%;
+    padding: 96px 0;
+    display: flex;    
+}
+
+.steps__left {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+
+.steps__left--img {
+    max-width: 100%;
+}
+
+.steps__right {
+    max-width: 50%;
+    padding-left: 34px;
+}
+
+.steps__right--h1 {
+    padding-bottom: 24px;;
+}
+
+.steps__right-list-item {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.steps__right-list-number {
+    font-size: 40px;
+    padding: 0 20px;
+    font-weight: bold;
+    color: #CBD5E0;
+}
+
+.steps__right-list-title {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.steps__right-list-desc {
+    line-height: 2;
+    color: #718096;
+}
+
+/*
+
+VALUES
+
+*/
+
+.valu {
+    width: 100%;
+    padding: 96px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.valu__left {
+    max-width: 45%;
+}
+
+.valu__right {
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valu__right--img {
+    max-width: 100%;
+}
+
+.valu__left--items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valu__left--item {
+    width: 45%;
+}
+
+.valu__left--item-pair {
+    display: flex;
+    align-items: center;
+}
+
+.valu__left-icon-1 {
+    background: #9AE6B4;
+    border: 2px solid #9AE6B4;
+    padding: 10px 12px;
+    border-radius: 50%;
+    color: black;
+}
+
+.valu__left-icon-2 {
+    background: #feb2b2;
+    border: 2px solid #feb2b2;
+    padding: 10px 12px;
+    border-radius: 50%;
+    color: rgb(155, 44, 44)
+}
+
+.valu__left--title {
+    color: #243e63;
+    margin-left: 20px;
+}
 
