@@ -14,7 +14,7 @@ html {
 .container {
     width: 100%;
     max-width: 1280px;    
-    padding: 20px 28px;
+    /* padding: 20px 28px; */
     margin: 0 auto;
 }
 
@@ -33,6 +33,10 @@ p {
     padding: 24px 0;
     color: #7c8bA1;
     font-size: 18px;
+}
+
+li {
+    list-style: none;
 }
 
 input {
@@ -139,8 +143,9 @@ HEADER
 
 .header {
     display: flex;
+    align-items: center;
     width: 100%;
-    padding: 0 0 32px 0;
+    padding: 96px 0 96px 0;
 }
 
 .header__left {
@@ -406,8 +411,121 @@ VALUES
     margin-left: 20px;
 }
 
+/*
+
+PRICING
+
+*/
+
+.plans {
+    width: 100%;
+    padding: 96px 0;
+}
+
+.plans__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plans__header--p {
+    width: 50%;
+    text-align: center;
+}
+
+.plans__options {
+    display: flex;
+    justify-content: center;
+}
+
+.plans__option {
+    text-align: center;
+}
+
+.plans__option--title-elements {
+    border: 1px solid lightgrey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+    padding: 40px 80px;
+    margin: 20px 20px 0 20px;
+}
+
+.header-elements-option1 { 
+    border-top: 10px solid rgb(56, 178, 172);
+}
+.header-elements-option2 { 
+    border-top: 10px solid rgb(102, 126, 234);
+}
+
+.header-elements-option3 { 
+    border-top: 10px solid rgb(245, 101, 101);
+}
+
+.plans__option--price {
+    padding: 10px;
+    color: black;
+}
+
+.plans_option--timeline {
+    color: #718096
+}
+
+.plans__option--features {
+    border: 1px solid lightgrey;
+    padding: 20px 80px;
+    margin: 0 20px 0 20px;
+}
+
+.plans__option-feature {
+    margin: 20px 0;
+    color: #718096;
+}
+
+.plans__options-feature-header {
+    font-weight: bold;
+    color: black;
+}
+
+.elements__option2,
+.features__option2,
+.wrapper__option2 {
+    background: rgb(102, 126, 234);
+}
 
 
+.option2 {
+    color: white;
+    z-index: 10;
+}
+
+.btn__plans--wrapper {
+    border: 1px solid lightgrey;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px 80px;
+    margin: 0 20px 0 20px;
+}
+
+.plans__btn {
+    width: 200px;
+    padding: 15px;
+}
+
+.btn__option1 {
+    background-color: rgb(56, 178, 172);
+}
+
+.btn__option2 {
+    background-color: white;
+    color: rgb(102, 126, 234);
+}
+
+.btn__option3 {
+    background-color: rgb(245, 101, 101);
+}
 
 
 /*
@@ -483,9 +601,9 @@ TESTIMONIALS
 }
 
 .divider {
-    border: 0.5px solid rgb(239, 236, 236);
+    border-right: 0.5px solid rgb(239, 236, 236);
     height: 30px;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .right-arrow {
@@ -547,7 +665,7 @@ FOOTER
 
 */
 
-.row {
+.row__footer {
     display: flex;
     flex-direction: column;
     align-items: start;
