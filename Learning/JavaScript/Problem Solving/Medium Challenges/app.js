@@ -147,3 +147,30 @@
 
 // console.log(reverseString('David'))
 
+// Q9 turn every element in an array into 0
+//     Given an array of ElementInternals, return the same length array fille with 0's
+
+//     convertToZeros([5, 100, 0]) -> [0, 0, 0,]
+//     convertToZeros([12]) -> [0]
+//     convertToZeros([1, 2, 3, 4, 5]) -> [0, 0, 0, 0, 0]
+
+//     SOLVING
+// function convertToZeros(arr) {
+//     // for (i = 0; i < arr.length; i++) {
+//     //     arr[i] = 0;
+//     // }
+//     // return arr;
+
+//     /*FOR SAME ARRAY */ return arr.fill(0);
+//     // FOR NEW return new Array(arr.length).fill(0);
+    
+//     // return arr.map(elem => 0);
+// //    let newArr = arr.map((elem) => {
+// //     return element * 0;
+// //    })
+// //    return newArr;
+// }
+
+
+// console.log(convertToZeros([1, 2, 3]))
+
