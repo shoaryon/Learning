@@ -174,3 +174,67 @@
 
 // console.log(convertToZeros([1, 2, 3]))
 
+// Q10 Filter out all the apples
+//     Given an array of fruits, if it is an apple remove it from the array
+
+//     removeApples(['Banana', 'Apple', 'Orange', 'Apple']) -> {'Banana', 'Ornage'}
+//     removeApples(['Tomato', 'Orange', 'Banana']) -> {'Tomato', 'Ornage', 'Banana'}
+//     removeApples(['Banana', 'Orange', 'Apple']) -> {'Banana', 'Ornage'}
+
+//     SOLVING
+// function removeApples(arr) {
+//     // let newArr = [];
+//     // for (i = 0; i < arr.length; i++) {
+//     //     if (arr[i] !== 'Apple') {
+//     //         newArr.push(arr[i])
+//     //     }
+//     // }
+//     // return newArr
+//     // return arr.filter(fruit => fruit !== 'Apple')
+   
+// }
+
+// console.log(removeApples(['Banana', 'Apple', 'Orange', 'Apple']))
+
+// Q11 Filter out all the falsy values
+//     Given an array of values filte rout all the falsy values and only return the truthy values
+
+//     filterOutFalsy(["", [], 0, null, undefined, "0"]) -> [[], "0"]
+//     filterOutFalsy(['Tomato', 'Orange', 'Banana', false]) -> ['Tomato', 'Orange', 'Banana']
+//     filterOutFalsy(['Banana', 'Orange', 'Apple']) -> ['Banana', 'Orange', 'Apple]
+
+//     SOLVING
+// function filterOutFalsy(arr) {
+//     // let newArr = [];
+//     // for (i = 0; i < arr.length; i++) {
+//     //     if (!arr[i] === false) {
+//     //         newArr.push(arr[i]);
+//     //     }
+//     // }
+//     // return newArr
+//     // return arr.filter(truthy => !truthy === false)
+// }
+
+// console.log(filterOutFalsy(["", [], 0, null, undefined, "0"]))
+
+// Q12 Truthy to true, Falsy to false
+//     Given an array of truthy and falsy values, return the same array of elements into a boolean value
+
+//     convertToBoolean([500, 0, "David", "", []]) -> [true, false, true, false, true]
+
+//     SOLVING
+// function convertToBoolean(arr) {
+//     // let newArr = [];
+//     // for (i = 0; i < arr.length; i++) {
+//     //     if (!!arr[i] === true) {
+//     //        arr[i] = true
+//     //     }
+//     //     if (!!arr[i] === false) {
+//     //         arr[i] = false
+//     //     }
+//     // }
+//     // return arr
+//     // return arr.map(elem => !!elem)
+// }
+
+// console.log(convertToBoolean([500, 0, "David", "", []]))
