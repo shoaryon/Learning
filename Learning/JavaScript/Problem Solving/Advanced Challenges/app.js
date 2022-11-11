@@ -86,3 +86,41 @@
 //     "Async JS Crash Course - Callbacks, Promises, Async Await"
 //         - Travery Media (1.5x Speed)
 
+// No longer necessary -- all covered in PROMISES lesson
+
+// Q5 Find all the posts by a single user 
+//     Call the SPI "https://jsonplaceholder.typicode.com/posts" and return all the posts by any given user Id 
+
+//     postsByUser(4) -> ALL THEIR posts
+
+//     SOLVING
+
+
+// async function postsByUser(userId) {
+//     const promise = await fetch("https://jsonplaceholder.typicode.com/posts");
+//     const result = await promise.json();
+
+//     const posts = result.filter(element => element.userId === userId);
+
+//     console.log(posts)
+// }
+
+
+// postsByUser(4);
+
+// Q6 First 6 Incomplete Todos
+//     Call this API "https://jsonplaceholder.typicode.com/todos" and return the first 6 incomplete todo's from the result
+
+//     firstSixIncomplete() -> ALL THE TODOS THAT ARE Incomplete
+
+//     SOLVING
+// async function firstSixIncomplete(completed) {
+//     const promise = await fetch("https://jsonplaceholder.typicode.com/todos")
+//     const result = await promise.json();
+    
+//     const incompleteTasks = result.filter(elem => !elem.completed).slice(0, 6);
+
+//     console.log(incompleteTasks)
+// }
+
+// firstSixIncomplete(6)
